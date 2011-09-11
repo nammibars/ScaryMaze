@@ -17,6 +17,8 @@ import javax.swing.JFrame;
 public class ScaryMaze extends JComponent {
     
     private Color BRIGHT_PINK = new Color(255, 60, 140);
+    private Color DARK_BLUE = new Color (0, 51, 102);
+    private Color GREEN = new Color (0, 255, 0);
 
     /**
      * @param args the command line arguments
@@ -40,6 +42,13 @@ public class ScaryMaze extends JComponent {
         
         g.setColor(BRIGHT_PINK);
         g.fillRect(0, 0, 1000, 800);
+        g.setColor(DARK_BLUE);
+        g.fillRect(100, 200, 500, 400);
+        g.setColor(DARK_BLUE);
+        g.fillRect(400, 350, 500, 100);
+        g.setColor(GREEN);
+        g.fillRect(900, 350, 25, 100);
+        
         
         
         
